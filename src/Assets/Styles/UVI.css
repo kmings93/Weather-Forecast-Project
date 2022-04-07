@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divUVI {
+  width: 100%;
+}
+
+.divUVIHeader {
+  margin: 0px;
+  padding: 50px 0px 1px 0px;
+  border-radius: 65px 0px 0px 0px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.divUVIHeaderMain {
+  outline: solid black 0px;
+  background-color: gainsboro;
+  margin: 0px;
+  padding: 25px 0px 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.divUVILegend {
+  margin: 0px;
+  padding: 50px 0px 0px;
+  width: 100%;
+  color: black;
+  font-size: 13px;
+  text-align: left;
+}
+
+.fieldset {
+  border-width: 8px 0px 0px 120px;
+  border-color: rgba(184, 184, 184, 0.2);
+  border-radius: 160px 0px 0px;
+  border-style: inset none none solid;
+}
+
+.divUVIMain {
+  margin: 0px;
+  padding: 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.divUVILarge {
+  padding: 0px 0px 10px;
+  font-family: Segoe UI;
+  font-size: 275px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 12px 12px rgba(184, 184, 184, 1);
+  letter-spacing: -40px;
+}
+
+/* For UVIMeasures.js  */
+.divMeasures {
+  margin: 10px;
+  padding: 12px;
+  border-width: 8px;
+  border-color: rgba(184, 184, 184, 0.2);
+  border-radius: 50px;
+  border-style: solid;
+  font-size: 30px;
+  text-align: center;
+}
