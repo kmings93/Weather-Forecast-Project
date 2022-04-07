@@ -1,0 +1,25 @@
+.main{
+    width: 30vw;
+    background-color: aquamarine;
+    margin:0px 10px;
+    padding:1px;
+    justify-content: center;
+    border-style:solid;
+    display: flex;     
+}
+
+.top{
+    width: 30vw;
+    margin:0px 10px;
+    padding:1px;
+    justify-content:space-between;
+    border-style:solid;
+    display: flex;  
+    background-color: aliceblue;  
+}
+
+
+
+@media (max-width: 580px) {
+    
+}

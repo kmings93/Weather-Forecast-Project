@@ -1,5 +1,13 @@
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import Screen from './Screens/Screen';
+import reportWebVitals from './reportWebVitals';
+=======
 import React from "react";
 import ReactDOM from "react-dom";
+
 
 import "./index.css";
 import App from "./App";
@@ -22,6 +30,7 @@ import "../src/index.css";
 ReactDOM.render(
   <React.StrictMode>
 
+
     <FourDays />
 
     <div className="UVI">
@@ -29,6 +38,7 @@ ReactDOM.render(
       <UVIAllData dateTime={APIDateTime()} />
     </div>
     <TwoHoursForecastContainer />
+
 
   </React.StrictMode>,
   document.getElementById("root")
