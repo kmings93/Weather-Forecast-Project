@@ -1,4 +1,4 @@
-import "../Assets/Styles/TownWeather.css";
+import "../..//Assets/Styles/TownWeather.css";
 
 function TownWeather({ town, weather }) {
   function weatherIcon() {

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import "../Assets/Styles/Screen.css";
-import { API } from "../Components/Utils/API";
-import Navbar from "../Components/Navbar";
-import DisplayTowns from "../Components/DisplayTowns";
-import warningIcon from "../Assets/Images/warning.png";
+import "../../Assets/Styles/Screen.css";
+import { API } from "../Utils/API";
+import Navbar from "./Navbar";
+import DisplayTowns from "./DisplayTowns";
+import warningIcon from "../../Assets/Images/warning.png";
 
 import {
   westTowns,
@@ -11,8 +11,8 @@ import {
   centralTowns,
   northTowns,
   southTowns,
-} from "./SingaporeDistrict";
-import TownWeather from "../Components/TownWeather";
+} from "../../Screens/SingaporeDistrict";
+import TownWeather from "./TownWeather";
 
 let today = new Date().toISOString();
 

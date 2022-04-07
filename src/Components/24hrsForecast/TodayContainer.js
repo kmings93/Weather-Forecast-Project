@@ -18,10 +18,10 @@
  *
  */
 import React, { useEffect, useState } from "react";
-import TodayCard from "../Screens/TodayWeather";
-import { API } from "./Utils/API";
-import ErrorMsg from "../Screens/ErrorMsg";
-import TodayWeather from "../Screens/TodayWeather";
+import TodayCard from "../../Screens/TodayWeather";
+import { API } from "../Utils/API";
+import ErrorMsg from "../../Screens/ErrorMsg";
+import TodayWeather from "../../Screens/TodayWeather";
 
 const TodayContainer = () => {
   const defaultState = {
