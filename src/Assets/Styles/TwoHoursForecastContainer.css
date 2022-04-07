@@ -1,0 +1,16 @@
+.main{
+    width: 50vw;
+    margin:0px 10px;
+    padding:10px
+}
+
+.errorBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.errorBox>img{
+    margin: 20px;
+
+}
