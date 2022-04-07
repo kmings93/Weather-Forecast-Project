@@ -1,0 +1,125 @@
+.ParentContainer {
+  max-width: 50%;
+  margin: auto;
+  border-style: hidden;
+  border-color: whitesmoke;
+  border-radius: 1em;
+  /* background-color: #cee6c1; */
+  box-shadow: 0 20px 50px 0 rgba(115, 85, 196, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+.DayOneContainer,
+.DayTwoContainer,
+.DayThreeContainer,
+.DayFourContainer {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.MainContainer {
+  /* border-top-style: inset;
+  border-color: #bdc5d5; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #cee6c1;
+  transition-property: 100px;
+  max-width: 150%;
+  max-height: 50%;
+  border-radius: 1em;
+}
+
+.MainContainer:hover {
+  color: whitesmoke;
+  box-shadow: 0 0 5px yellow;
+  text-shadow: 0 0 5px black;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  opacity: 0.8;
+  background: #9297a3;
+  /* transition: 0.5s; */
+  transform: scale(1.05);
+  /* transition: background-color 0.2s ease-out, color 0.2s ease-out, transform 0.2s ease-out; */
+  /* transition-property: background-color, color, transform; */
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  border-radius: 1em;
+}
+
+/* .MainContainer:hover::after {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  } */
+
+.FirstContainer {
+  /* border-style: solid;
+  border-color: red; */
+  max-width: 40%;
+  max-height: 40%;
+  margin: auto 0;
+  /* text-align: center; */
+}
+
+.WeatherIcon {
+  max-height: 65%;
+  max-width: 65%;
+  margin: 10%;
+}
+
+.SecondContainer {
+  /* border-style: solid;
+  border-color: Brown; */
+  /* max-width: 100%; */
+  margin: auto 0;
+  text-align: left;
+}
+
+.SecondBottomContainer {
+  display: flex;
+}
+
+.TemperatureContainer {
+  /* border-style: solid;
+  border-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 0px;
+}
+
+.TemperatureIcon {
+  max-height: 50px;
+  max-width: 50px;
+  padding-right: 10px;
+  /* opacity: 255 - (255 - x); */
+  /* background-blend-mode: darken; */
+  /* background-size: cover; */
+  /* background-image: url(/static/media/Storm.87208f53506a3185bc9e.PNG);
+    background-repeat: no-repeat;
+    background-color: transparent; */
+
+  /* -webkit-appearance: none; */
+  /* backdrop-filter: blur(5px); */
+}
+
+.WindContainer {
+  /* border-style: solid;
+  border-color: purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.WindIcon {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+/* @media screen and (min-width: 100%) {
+    .ParentContainer {
+      background-color: red;
+    }
+  } */

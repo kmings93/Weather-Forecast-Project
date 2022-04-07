@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import FourDays from "./Screens/fourDays";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <FourDays />
   </React.StrictMode>,
   document.getElementById("root")
 );
