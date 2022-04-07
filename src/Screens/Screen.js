@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "../Assets/Styles/Screen.css";
-import API from "../Components/Utils/API";
+import { API } from "../Components/Utils/API";
 import Navbar from "../Components/Navbar";
 import DisplayTowns from "../Components/DisplayTowns";
 import warningIcon from "../Assets/Images/warning.png";
