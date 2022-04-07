@@ -1,9 +1,9 @@
-import "../Screens/Screen.css";
 import { useEffect, useState } from "react";
-import API from "./API";
+import "../Assets/Styles/Screen.css";
+import API from "../Components/Utils/API";
 import Navbar from "../Components/Navbar";
 import DisplayTowns from "../Components/DisplayTowns";
-import warningIcon from "../assets/image/warning.png";
+import warningIcon from "../Assets/Images/warning.png";
 
 import {
   westTowns,
