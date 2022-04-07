@@ -11,12 +11,11 @@
     display: flex;
     align-items: center;
     margin:0px 5px;
-    font-size: 12px;
-   
+    font-size: .875em;
+    font-family: "Roboto",sans-serif;  
 }
-   
 .span{
-    font-size: 50px;
+    font-size: 40px;
     margin:0px 10px;
     font-weight:500;
 }

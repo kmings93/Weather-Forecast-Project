@@ -5,8 +5,9 @@
     align-items:center;
     align-content:center;
    font-weight: bolder;
-   margin:15px 5px 0px;
+   margin:0px 5px ;
    border-bottom: grey solid 2px;
+   font-size: 1rem;
 
 }
 
@@ -18,7 +19,7 @@
         align-items:center;
         align-content:center;
        font-weight: bold;
-       margin:15px 5px 0px;
+       margin:0px 5px;
        border-bottom: grey solid 2px;
        font-size: 0.7rem;
     

@@ -1,4 +1,4 @@
-import "./TownWeather.css";
+import "../Assets/Styles/TownWeather.css";
 
 function TownWeather({ town, weather }) {
   function weatherIcon() {
@@ -22,6 +22,11 @@ function TownWeather({ town, weather }) {
         break;
       case "Cloudy":
         icon = "☁";
+        break;
+      case "Light Rain":
+        icon = "🌦";
+        break;
+
       default:
         break;
     }

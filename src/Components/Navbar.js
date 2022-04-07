@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Navbar.css";
+import "../Assets/Styles/Navbar.css";
 
 function Navbar({ changeStateFunc, setInputFunc }) {
   const [activeClick, setActiveClick] = useState({ active: "west" });

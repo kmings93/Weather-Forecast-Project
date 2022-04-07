@@ -1,5 +1,5 @@
 import TownWeather from "./TownWeather";
-import "./DisplayTowns.css";
+import "../Assets/Styles/DisplayTowns.css";
 
 function DisplayTowns({ townArray }) {
   return (
