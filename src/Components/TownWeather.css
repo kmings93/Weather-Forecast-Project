@@ -1,0 +1,47 @@
+.TownWeather{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    align-items:center;
+    align-content:center;
+    border-bottom: 1px rgba(13, 0, 0, 0.5) solid;
+    font-size: 20px;
+}
+.TownWeather>div{
+    display: flex;
+    align-items: center;
+    margin:0px 5px;
+    font-size: 12px;
+   
+}
+   
+.span{
+    font-size: 50px;
+    margin:0px 10px;
+    font-weight:500;
+}
+
+@media (max-width: 580px) {
+
+    .TownWeather>div{
+        display: flex;
+        align-items: center;
+        margin:0px 5px;
+        font-size: 0.7rem;
+    }
+    .TownWeather{
+        display:inline-grid;
+        grid-template-columns: 1fr 1fr;
+        width: 70vw;
+        align-items:center;
+        align-content:center;
+        border-bottom: 1px rgba(13, 0, 0, 0.5) solid;
+
+    }
+    .span{
+        font-size: 1rem;
+        margin:0px 2px;
+        font-weight:500;
+    }
+    
+    }
