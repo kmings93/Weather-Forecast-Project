@@ -1,0 +1,36 @@
+.header {
+  background-color: hsl(156, 75%, 61%);
+  font-family: Verdana;
+  font-weight: bold;
+  width: 300px;
+  padding: 20px 20px;
+  color: hsl(223, 26%, 22%);
+  text-align: center;
+  border-radius: 10px;
+  text-shadow: 30px;
+  box-shadow: 10px;
+  margin: 20px;
+}
+.container {
+  width: 300px;
+  font-weight: bold;
+  padding: 0px;
+  color: hsl(9, 79%, 60%);
+  font-size: 1em;
+  text-shadow: 30px;
+  background-color: hsl(156, 75%, 61%);
+}
+
+.footnote {
+  font-size: x-small;
+  color: black;
+  font-style: italic;
+  text-align: justify;
+  padding: 10px;
+}
+.err {
+  background-color: hsl(354, 73%, 59%);
+  width: 300px;
+  color: white;
+  padding: 20px 0px;
+}
