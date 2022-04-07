@@ -1,0 +1,16 @@
+.main{
+    width: 50vw;
+    margin:0px 10px;
+    padding:8px;
+    font-size: 1 rem;
+    border: 15px;
+    display: flex;
+    
+}
+
+
+
+@media (max-width: 580px) {
+    h1{font-size: 1rem;}
+    p{font-size: 0.8rem;}
+}
