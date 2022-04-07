@@ -15,3 +15,9 @@ code {
 .container {
   background-color: aquamarine;
 }
+
+/*   UVI Component   */
+.UVI {
+  width: 22%;
+  padding: 100px 200px;
+}
