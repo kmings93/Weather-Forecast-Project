@@ -4,6 +4,7 @@ import { API } from "../Utils/API";
 import Navbar from "./Navbar";
 import DisplayTowns from "./DisplayTowns";
 import warningIcon from "../../Assets/Images/warning.png";
+import "../../Assets/Styles/TwoHoursForecastContainer.css";
 
 import {
   westTowns,
@@ -84,7 +85,7 @@ function Screen() {
 
   return (
     <div>
-      <div className="main">
+      <div className="main1">
         <h1>2-hour NowCast</h1>
         {TwoHrsData ? (
           <p>
@@ -116,7 +117,7 @@ function Screen() {
             )}
           </div>
         ) : (
-          <div className="main">
+          <div className="main1">
             <div className="screen"></div>
             <div className="tab-container">
               <DisplayTowns townArray={TwoHrsData[0][active.active]} />
