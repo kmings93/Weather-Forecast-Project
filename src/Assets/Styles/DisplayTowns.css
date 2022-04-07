@@ -1,0 +1,27 @@
+.heading{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width: 70vw;
+    align-items:center;
+    align-content:center;
+   font-weight: bolder;
+   margin:0px 5px ;
+   border-bottom: grey solid 2px;
+   font-size: 1rem;
+
+}
+
+@media (max-width: 580px) {
+
+    .heading{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        align-items:center;
+        align-content:center;
+       font-weight: bold;
+       margin:0px 5px;
+       border-bottom: grey solid 2px;
+       font-size: 0.7rem;
+    
+    }
+}

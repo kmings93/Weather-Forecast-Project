@@ -1,17 +1,45 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Screen from './Screens/Screen';
 import reportWebVitals from './reportWebVitals';
+=======
+import React from "react";
+import ReactDOM from "react-dom";
 
+
+import "./index.css";
+import App from "./App";
+
+import FourDays from "./Screens/fourDays";
+
+
+
+//2hrs containter import
+import TwoHoursForecastContainer from "./Components/2hrsForecast/TwoHoursForecastContainer";
+
+//24hrs containter import
+import TodayContainer from "./Components/24hrsForecast/TodayContainer";
+
+// UVI containter import import
+
+import APIDateTime from "./Components/Utils/APIDateTime";
+import UVIAllData from "./Components/UVI/UVIAllData";
+import "../src/index.css";
 ReactDOM.render(
   <React.StrictMode>
-    <Screen />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+    <FourDays />
+
+    <div className="UVI">
+      <TodayContainer />
+      <UVIAllData dateTime={APIDateTime()} />
+    </div>
+    <TwoHoursForecastContainer />
+
+
+  </React.StrictMode>,
+  document.getElementById("root")
+);
