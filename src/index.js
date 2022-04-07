@@ -11,16 +11,17 @@ import APIDateTime from "../Components/Utils/APIDateTime";
 import UVIAllData from "../Components/UVI/UVIAllData";
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Screen />
-  
-  
-// UVI Component
-<UVIAllData dateTime={APIDateTime()} />
-  
+
+  // UVI Component
+<div className="UVI">
+  <UVIAllData dateTime={APIDateTime()} />
+</div>
+
+
 </React.StrictMode>,
   document.getElementById("root")
 );
