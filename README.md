@@ -1,4 +1,4 @@
-# Weather-Forecast-Project
+# [Weather-Forecast-Project](https://kmings93.github.io/Weather-Forecast-Project/)
 
 This is our first group project the SkillsUnion/NTU Software Developer Immersive course. to practice what we have learnt so far in the course and create a React project that consume an API. 
 
