@@ -12,5 +12,11 @@ Link: https://kmings93.github.io/Weather-Forecast-Project/
 - [Saiful](https://github.com/saifu7bahri)
 - [Wai Chee](https://github.com/swaichee)
 
-
-
+## Built With
+- React.js
+- CSS
+- Media Query
+- JavaScript
+- Axios
+- GitHub
+- Agile / Scrum
