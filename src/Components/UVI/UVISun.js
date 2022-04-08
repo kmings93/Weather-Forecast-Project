@@ -9,7 +9,7 @@ const UVISun = (props) => {
   // API input for Sunrise/Sunset readings - latitude & longtitude values for The Republic of Singapore, with current date
   const lat = "lat=" + 1.357107;
   const long = "lng=" + 103.8194992;
-  const today = "date=" + "2022-04-08";
+  const today = "date=" + cDate;
 
   const childPathSun = "json?" + lat + "&" + long + "&" + today;
   // console.log(childPathSun);
