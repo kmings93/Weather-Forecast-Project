@@ -14,7 +14,7 @@ const APIDateTime = () => {
   */
 
   let today = new Date().toISOString();
-  let time = new Date(today).toLocaleTimeString("en-US", {
+  let time = new Date(today).toLocaleTimeString("en-GB", {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
@@ -24,6 +24,7 @@ const APIDateTime = () => {
   time = time.slice(0, 8);
 
   const currDateTime = today + time;
+  // console.log(currDateTime);
 
   return currDateTime;
 };
