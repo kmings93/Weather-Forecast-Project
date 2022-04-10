@@ -23,7 +23,7 @@ const APIDateTime = () => {
   today = today.slice(0, 11);
   time = time.slice(0, 8);
 
-  let currDateTime = today + time;
+  const currDateTime = today + time;
 
   return currDateTime;
 };
